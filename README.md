@@ -19,7 +19,8 @@ O sistema será feito num Ambiente de Desenvolvimento Integrado (IDE) que suport
 
 ### What 
 #### (O que -> Sistema) - O que é o sistema? O que precisa ser feito? -> Quais são os requisitos feitos pelo cliente?
-O projeto se trata de desenvolver uma API e integrar com os demais sistemas que formam o ecossistema da plataforma. Os sistemas são: Loja, Logística e Recebimentos.  
+O projeto se trata de desenvolver uma API e integrar com os demais sistemas que formam o ecossistema da plataforma. 
+Os sistemas são: Loja, Logística e Recebimentos.  
 
 ### Why 
 #### (Por que -> Sistema) - Porque esse projeto/sistema é necessário? -> No que ele vai ajudar o cliente?
