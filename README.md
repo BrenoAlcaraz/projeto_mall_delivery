@@ -28,7 +28,7 @@ O sistema irá melhorar a integração plataforma-loja, para que não haja confl
 
 
 ### How 
-#### (Como -> Sistema) - Como será o sistema?
+#### (Como -> Sistema) - Como será feito o sistema?
 O sistema será feito a partir de reuniões da equipe durante e fora das aulas, documentando o que for necessário para realização do sistema, e após isso, haverá a parte de programação, utilizando a linguagem python.
 
 ### How much 
