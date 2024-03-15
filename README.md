@@ -19,11 +19,11 @@ O sistema será feito num Ambiente de Desenvolvimento Integrado (IDE) que suport
 
 ### What 
 #### (O que -> Sistema) - O que é o sistema? O que precisa ser feito? -> Quais são os requisitos feitos pelo cliente?
-O projeto se trata de desenvolver uma API e integrar com os demais sistemas que formam o ecossistema da plataforma. 
+Se trata de desenvolver uma API e integrar com os demais sistemas que formam o ecossistema da plataforma. 
 Os sistemas são: Loja, Logística e Recebimentos.  
 
 ### Why 
-#### (Por que -> Sistema) - Porque esse projeto/sistema é necessário? -> No que ele vai ajudar o cliente?
+#### (Por que -> Sistema) - Porque esse sistema é necessário? -> No que ele vai ajudar o cliente?
 O sistema irá melhorar a integração plataforma-loja, para que não haja conflitos de produtos nos estoques, sistemas e outros recursos.
 
 
@@ -32,6 +32,6 @@ O sistema irá melhorar a integração plataforma-loja, para que não haja confl
 O sistema será feito a partir de reuniões da equipe durante e fora das aulas, documentando o que for necessário para realização do sistema, e após isso, haverá a parte de programação, utilizando a linguagem python.
 
 ### How much 
-#### (Preço -> Sistema) - Quanto será gasto no projeto/sistema? -> o valor do projeto: 
+#### (Preço -> Sistema) - Quanto será gasto no sistema? : 
 O custo desse sistema não é monetário, e sim em relação ao tempo que será gasto para a conclusão da tarefa.
 
