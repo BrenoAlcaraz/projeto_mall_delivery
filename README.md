@@ -1,7 +1,4 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-
-# NomedoProjeto
+# 2024.1_BDGJT_ProjetoMallDelivery
 
 **Número do Grupo**: 23<br>
 **Código da Disciplina**: FGA0208-T01<br>
