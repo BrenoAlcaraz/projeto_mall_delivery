@@ -11,24 +11,26 @@ O propósito deste documento é fornecer uma visão geral sobre o projeto que se
 ## Descrição do Problema 
 
 <p align = "justify">
-
+O problema a ser abordado consiste na necessidade de desenvolver um sistema abrangente para cadastro de lojistas, integrado com APIs e um Front-end intuitivo e eficiente. Este sistema visa dar continuidade ao negócio de Marketplace de entrega imediata, oferecendo uma plataforma robusta e confiável para que as lojas físicas possam participar ativamente da operação.
 </p>
 
 ### Problema
 
-Dificuldade em gerenciar e organizar...
+Dificuldade em gerenciar e organizar os processos de cadastro e validação de lojistas para participação no Marketplace de entrega imediata.
 
 ### Impactados
 
-Usuários....
+Usuários administradores da plataforma, responsáveis pelo gerenciamento e validação dos cadastros de lojistas.
 
 ### Consequência
 
-A criação de novos....
+A criação de novos obstáculos para a expansão do Marketplace, como a demora no processo de cadastro e validação de novos lojistas que realizarão a integração entre loja e aplicativo gerando uma perda de credibilidade para os clientes.
 
 ### Solução
 
-Utilizar a aplicação que será desenvolvida visando resolver...
+Utilizar a aplicação que será desenvolvida visando resolver os desafios relacionados ao cadastro e validação de lojistas no Marketplace. A solução incluirá um sistema completo de cadastro, integração com APIs para validação de CNPJ, campos para informações pessoais, redes sociais, endereços, imagens representativas e informações bancárias dos lojistas, além de um processo de validação administrativa para garantir a qualidade e integridade dos cadastros.
+
+Objetivos
 
 ## Objetivos
 
@@ -47,7 +49,7 @@ Os usuários serão....
 ### Conta
 
 <p align = "justify">
-O cliente poderá realizar seu cadastro....
+O cliente poderá realizar seu cadastro
 </p>
 
 ### Loja
