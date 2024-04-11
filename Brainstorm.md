@@ -44,7 +44,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 
 <b> ZZZ </b>-  O cliente... 
 
-<b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queria , irá poder fazer a compra de um desses produtos. 
+<b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
 
 <b>KKKK</b> - O cliente...
 </p>                       
@@ -88,7 +88,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
    <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
 
    <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
-      
+
 </p>
  
 ### Requisitos elicitados
