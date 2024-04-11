@@ -28,7 +28,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 <b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
  
-<b>KKKK</b> - A plataforma vai servir para gerenciar o estoque de produtos que foram vendidos através do aplicativo.
+<b>KKKK</b> - A plataforma vai servir para vender produtos online e também para gerenciar o estoque da loja dos produtos que foram vendidos através do aplicativo.
 </p>                       
 
 ---                                                                      
