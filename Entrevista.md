@@ -1,8 +1,3 @@
----
-id: entrevista
-title: Entrevista
----
-
 ## Introdução
 <p align = "justify">
 A técnica da entrevista trata-se de uma conversa guiada por um roteiro de perguntas ou tópicos, na qual visa questionar o stakeholders sobre o sistema atual e esclarecer as suas necessidades sobre o sistema que será desenvolvido. A entrevista permite investigação em profundidade sobre um problema, dessa forma coletar uma grande quantidade de informações para o sistema.
