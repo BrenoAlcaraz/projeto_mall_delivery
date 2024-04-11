@@ -5,13 +5,13 @@ title: Documento de Visão
 ## Introdução
 
 <p align = "justify">
-O propósito deste documento é fornecer uma visão geral sobre o projeto que será realizado na disciplina Arquitetura e Desenho de Software 2020/1, na Universidade de Brasília. Sendo assim, Nesse documento serão descritas de maneira resumida as principais funcionalidades, usabilidades, o problema que será abordado e os objetivos da equipe.
+O propósito deste documento é fornecer uma visão geral sobre o projeto que será realizado para empresa Mall Delivery na disciplina de Projeto Back End, no IBMEC RJ. Sendo assim, nesse documento serão descritas de maneira resumida as principais funcionalidades, usabilidades, o problema que será abordado e os objetivos da equipe.
 </p>
 
 ## Descrição do Problema 
 
 <p align = "justify">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
 </p>
 
 ### Problema
