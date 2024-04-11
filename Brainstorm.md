@@ -54,7 +54,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
-<b>XXXX</b> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação. 
+<b>XXXX</b> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos 
 
 <b>YYYYY</b> - O produto tem...
 
@@ -84,24 +84,24 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
    <b>XXX</b> - Informações...
-   
+
    <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
 
    <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
-   
+      
 </p>
  
 ### Requisitos elicitados
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
-|BS06| O cliente...|
-|BS07| O cliente...|
+|BS01| O sistema deve permitir que o lojista adicione sua loja|
+|BS02| O sistema deve permitir que o lojista adicione produtos|
+|BS03| O sistema deve possibilitar que o usuário compre os produtos|
+|BS04| O sistema deve permitir que o usuario se cadastre |
+|BS05| O sistema deve possibilitar que o usuários faça login |
+|BS06| O sistema deve permitir que o lojista se cadastre|
+|BS07| o Sistema deve possuir uma funcionalidade de carrinho de compra, onde os produtos que o usuário pretende comprar ficarão salvos|
 |BS08| O cliente...|
 |BS09| O cliente...|
 |BS10| O produto...|
