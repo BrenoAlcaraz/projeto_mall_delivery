@@ -49,7 +49,17 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <b>KKK</b> - O cliente...
  </p>
 ---                                                                      
+<p align = "justify">
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.(?)
+</p> 
+<b> ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
+ 
+<b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-end.
+ 
+<b>KKKK</b> - A plataforma vai servir para gerenciar o estoque de produtos que foram vendidos através do aplicativo.
+</p>                       
 
+---  
  
  
 ### 3. Como será a forma de adicionar produtos?
