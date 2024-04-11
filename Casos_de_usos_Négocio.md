@@ -19,4 +19,13 @@
 
 **Interesses:**
 - Négocio: Deseja após concluida a análise da loja que requiriu entrada no sistema , recusar a entrada da mesma.
-  
+
+**Caso de uso:** Integrar os métodos de pagamento da loja aceita com os do sistema
+
+**Interesses:**
+- Négocio: Deseja após concluida a entrada de alguma loja no sistema, integrar os métodos de pagamento.
+
+**Caso de uso:** Integrar os estoques da loja com o sistema
+
+**Interesses:**
+- Négocio: Deseja após concluida a análise da loja que requiriu entrada no sistema , recusar a entrada da mesma.
