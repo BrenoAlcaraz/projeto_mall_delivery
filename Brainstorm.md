@@ -26,7 +26,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 <b> ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
  
-<b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-end.
+<b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
  
 <b>KKKK</b> - A plataforma vai servir para gerenciar o estoque de produtos que foram vendidos através do aplicativo.
 </p>                       
