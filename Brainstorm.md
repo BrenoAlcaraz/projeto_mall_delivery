@@ -41,6 +41,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <b>XXXX</b> -  O cliente irá pode ser cadastrar sozinho ao baixar o aplicativo 
 </p> 
 <b>YYYY</b> - O cliente...
+
 <b> ZZZ </b>-  O cliente...
  
 <b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queria , irá poder fazer a compra de um desses produtos.
