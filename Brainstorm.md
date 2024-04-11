@@ -48,7 +48,9 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 <b>KKK</b> - O cliente...
  </p>
----
+---                                                                      
+
+ 
  
 ### 3. Como será a forma de adicionar produtos?
  
