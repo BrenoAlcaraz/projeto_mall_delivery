@@ -18,11 +18,12 @@ Descreva o seu projeto em linhas gerais.
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
-## Instalação 
-**Linguagens**: Python
-**Tecnologias**: Django
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+## Instalação
+
+- **Linguagens**: Python  
+- **Tecnologias**: Django  
+
+Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários. Insira um manual ou um script para auxiliar ainda mais.
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
