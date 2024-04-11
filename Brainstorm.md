@@ -10,7 +10,7 @@ title: Brainstorm
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
   
 ## Brainstorm 
@@ -22,11 +22,11 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
   
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto,e  recebe-lo em até duas horas.(?)
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.(?)
 </p> 
-<b>ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
+<b> ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
  
-<b>WWWW</b> -  O objetivo principal da aplicação é integrar uma API com os sistema da loja, Logística e recebimentos .
+<b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-end.
  
 <b>KKKK</b> - A plataforma vai servir para gerenciar o estoque de produtos que foram vendidos através do aplicativo.
 </p>                       
@@ -38,11 +38,11 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 2. Como será o processo para cadastrar um novo cliente?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b>XXXX</b> - O cliente irá pode ser cadastrar sozinho ao baixar o aplicativo 
  
 <b>YYYY</b> - O cliente...
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
+<b>WWWW</b> - Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queria , irá poder fazer a compra de um desses produtos.
 
 <b>ZZZZ</b> - O cliente...
  
@@ -78,7 +78,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 <p align = "justify">
 <b>XXX</b> - O cliente....
 </p>
- 
+ ---
+
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
    <b>XXX</b> - Informações...
