@@ -8,7 +8,7 @@
 | -- | -- |
 | 202307164641  | Gabriel Mendes |
 | 202301135265  | Thiago Corrêa Brandão |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202307164534  |  João Pedro Menezes |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
