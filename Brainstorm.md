@@ -36,27 +36,16 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
     
       
 ### 2. Como será o processo para cadastrar um novo cliente?
- 
+                                                                     
 <p align = "justify">
-<b>XXXX</b> - O cliente irá pode ser cadastrar sozinho ao baixar o aplicativo 
- 
-<b>YYYY</b> - O cliente...
- 
-<b>WWWW</b> - Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queria , irá poder fazer a compra de um desses produtos.
-
-<b>ZZZZ</b> - O cliente...
- 
-<b>KKK</b> - O cliente...
- </p>
----                                                                      
-<p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.(?)
+<b>XXXX</b> -  O cliente irá pode ser cadastrar sozinho ao baixar o aplicativo 
 </p> 
-<b> ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
+<b>YYYY</b> - O cliente...
+<b> ZZZ </b>-  O cliente...
  
-<b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-end.
+<b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queria , irá poder fazer a compra de um desses produtos.
  
-<b>KKKK</b> - A plataforma vai servir para gerenciar o estoque de produtos que foram vendidos através do aplicativo.
+<b>KKKK</b> - O cliente...
 </p>                       
 
 ---  
