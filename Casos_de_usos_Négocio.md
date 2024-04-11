@@ -1,4 +1,4 @@
-## **3 - Casos de Uso:**
+## **Casos de Uso:**
 
 **Caso de uso:** Visualizar Feed
 
