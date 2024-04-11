@@ -1,6 +1,4 @@
-# 2024.1_BDGJT_ProjetoMallDelivery
-
-## Plano de Ação 5W2H Mall Delivery
+## 5W2H Mall Delivery
 ### Sistema
 
 ### Who
