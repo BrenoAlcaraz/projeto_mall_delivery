@@ -7,7 +7,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 202307164641  | Gabriel Mendes |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202301135265  | Thiago Corrêa Brandão |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
@@ -19,8 +19,8 @@ Descreva o seu projeto em linhas gerais.
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
+**Linguagens**: Python
+**Tecnologias**: Django
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 
