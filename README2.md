@@ -1,35 +1,39 @@
 # projeto-back-end
-## Plano de Ação 5W2H 
+## Plano de Ação 5W2H - Mall Delivery
 ### Negócio
 
 ### Who
 
-#### (Quem -> Sistema) - Quem vai fazer o sistema? e para quem é o sistema ?
-O sistema será feito pela equipe de desenvolvimento , que será destinado para a empresa 
-Octa City
+#### (Quem -> Negócio) - Quem vai fazer o negócio? e para quem é o negócio ?
+O negócio será realizado pelos proprietários e executivos da empresa. O negócio será destinado aos clientes que aderirem ao aplicativo.
 
 ### When 
 
-#### (Quando -> Sistema) - Quando o sistema vai ficar pronto?
-As datas de atualização serão semanais, e terão apresentações maiores nos dias das provas AP1 e AP2.
+#### (Quando -> Negócio) - Quando o negócio vai ficar pronto?
+O negócio ficará pronto quando todas as etapas do plano de execução do sistema forem concluídas.
 
 ### Where 
-#### (Onde -> Sistema) - Onde será feito o sistema?
-O sistema será feito  num Ambiente de Desenvolvimento Integrado (IDE) que suporte a linguagem Python com auxilio do framework Django.
+#### (Onde -> Negócio) - Onde será feito o negócio?
+O negócio será realizado nas instalações da empresa e, quando necessário, em locais externos para reuniões de integração com a equipe.
 
 ### What 
-#### (O que -> Sistema) - O que é o sistema? O que precisa ser feito? -> Quais são os requisitos feitos pelo cliente?
-O projeto tem como escopo principal desenvolver uma API para melhorar a obtenção de dados
-dos clientes da Octa City
+#### (O que -> Negócio) - O que é o negócio? O que precisa ser feito? -> Quais são os requisitos feitos pelo cliente?
+O negócio é um Marketplace de entrega imediata por aplicativo onde as lojas físicas servem de estoque logístico para a distribuição dos produtos comercializados. Com foco na praticidade da entrega, busca-se  fazê-la em até 2h, utilizando raio de abrangência para o alcance próximo de cada cliente.
+
+É preciso então estabelecer parcerias com empresas de logística para garantir a entrega rápida e eeficiente dos produtos aos clientes dentro do prazo estipulado. O que envolve toda parte de integração das APIs expressas no sistema.
+Além disso, precisa-se implementar integrações com empresas de recebíveis para facilitar os pagamentos das transações realizadas no Marketplace. Assim, será garantido aos clientes uma experiência segura na sua compra e uma gestão financeira prática para os lojistas.
+
 
 ### Why 
-#### (Por que -> Sistema) - Porque esse projeto/sistema é necessário? -> No que ele vai ajudar o cliente?
-O sistema irá melhorar a obtenção dos dados dos quais a empresa necessita para fazer um algoritimo de previsão de chuvas e assim gerar insights para seus clientes , assim gerando melhores insights , portanto o sistema se faz necessário.
+#### (Por que -> Negócio) - Porque esse negócio será feito? -> No que ele vai ajudar o cliente?
+O negócio será feito para que os clientes consigam comprar seus produtos sem sairem de casa, sendo possível filtar por lojas cadastradas, tipos de produtos, tamanhos e etc. Conferindo sempre a existência dos mesmos no estoque dado o raio de abrangência.
+Além disso a praticidade na entrega (em até 2h), sem que seja necessário esperar alguns dias úteis seria a mais parte inovadora do negócio no mercado.
+
 
 ### How 
-#### (Como -> Sistema) - Como será o sistema?
-O sistema será feito a partir de reuniões da equipe durante e fora das aulas, documentando o que for necessário para realização do sistema, e após isso, haverá a parte de programação, utilizando a linguagem python.
+#### (Como -> Negócio) - Como será feito o negócio?
+Uma vez estabelecidas as parcerias estratégicas de empresas de logísticas e recebíveis, será necessário desenvolver e implementar APIs que permitam a integração entre o aplicativo da Mall Delivery e os sistemas destas empresas.
 
 ### How much 
-#### (Preço -> Sistema) - Quanto será gasto no projeto/sistema? -> o valor do projeto: 
-O custo desse sistema não é monetário, e sim em relacão ao tempo que será gasto para a conclusão da tarefa.
+#### (Preço -> Negócio) - Quanto será gasto no negócio? -> o valor do projeto: 
+O custo desse negócio não é monetário, mas sim em relacão ao tempo e esforço que será gasto para o desenvolvimento das aplicações para Mall Delivery.
