@@ -11,6 +11,9 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 | -- | -- |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
