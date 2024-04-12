@@ -17,7 +17,7 @@ O sistema será feito num Ambiente de Desenvolvimento Integrado (IDE) que suport
 
 ### What 
 #### (O que -> Sistema) - O que é o sistema? O que precisa ser feito? -> Quais são os requisitos feitos pelo cliente?
-Se trata de desenvolver uma API e integrar com os demais sistemas que formam o ecossistema da plataforma. 
+Se trata de ceiar um sistema de cadastro e integrar uma API com os demais sistemas que formam o ecossistema da plataforma. 
 Os sistemas são: Loja, Logística e Recebimentos.  
 
 ### Why 
