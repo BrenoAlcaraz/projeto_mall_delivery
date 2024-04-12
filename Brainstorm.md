@@ -38,7 +38,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 2. Como será o processo para cadastrar um novo cliente??
                                                                      
 <p align = "justify">
--> O cliente irá poder se cadastrar sozinho ao baixar o aplicativo. 
+-> O usuário irá poder se cadastrar sozinho ao baixar o aplicativo. 
  
 -> O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
 
