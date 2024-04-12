@@ -10,7 +10,7 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou 02:00, onde o Douglas foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento. Após  debatermos as ideias, nós dividimos as tarefas e ficou decicido que o João Pedro faria o Brainstorm, mapa mental e  5wh2 do sistema, o Breno faria a metodologia e o mapa mental da entrevista, o Gabriel Mendes faria o documento de visão, o Thiago faria os casos de uso do sistema e do negócio, e também fez o 5w2h do sistema, e o Douglas fez a entrevista.
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou 23:00. Após  debatermos as ideias, nós dividimos as tarefas e ficou decicido que o João Pedro faria o Brainstorm, mapa mental e  5wh2 do sistema, o Breno faria a metodologia e o mapa mental da entrevista, o Gabriel Mendes faria o documento de visão, o Thiago faria os casos de uso do sistema e do negócio, e também fez o 5w2h do sistema, e o Douglas fez a entrevista. E depois disso todo mundo se juntou de novo para dar uma revisada no que  cada um fez .
 </p>
   
 ## Brainstorm 
