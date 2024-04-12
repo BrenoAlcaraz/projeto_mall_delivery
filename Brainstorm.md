@@ -10,7 +10,7 @@ title: Brainstorm
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou..., onde o Douglas foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
   
 ## Brainstorm 
@@ -38,11 +38,11 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 2. Como será o processo para cadastrar um novo cliente?
                                                                      
 <p align = "justify">
-<b>XXXX</b> -  O cliente irá pode ser cadastrar sozinho ao baixar o aplicativo 
+<b>XXXX</b> -  O cliente irá poder se cadastrar sozinho ao baixar o aplicativo 
  
-<b>YYYY</b> - O cliente...
+<b>YYYY</b> - O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
 
-<b> ZZZ </b>-  O cliente... 
+<b> ZZZ </b>-  O Lojista deve cadastrar  um CNPJ validado, informações pessoais,redes socais,endereços,CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil), informações bancárias.
 
 <b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
 
@@ -56,12 +56,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <p align = "justify">
 <b>XXXX</b> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos 
 
-<b>YYYYY</b> - O produto tem...
+<b>YYYYY</b> - O produto deve ser adicionado/cadastrado com imagen,descição,preço,recomenadado,data de criação e visível. 
 
- 
-<b>ZZZZ</b> - O produto....
- 
-<b>XXXX</b> - O produto....
 </p>
  
 ---
@@ -113,7 +109,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 ## Conclusão
 <p align = "justify">
-Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
+
 </p>
 ## Referências Bibliográficas
  
