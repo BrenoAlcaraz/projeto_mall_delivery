@@ -83,5 +83,5 @@ Através da aplicação da técnica, foi possível elicitar alguns requisitos im
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 11/04/2003 | 1.0 | Criação do documento | Douglas Hancock |
-<--!| DD/MM/YYYY | 2.0 | Adição da entrevista 1 | XXX XXXX | 
-| DD/MM/YYYY | 2.1 | Adição dos requisitos elicitados e conclusão | XXXX XXXXX |> 
+<!--| DD/MM/YYYY | 2.0 | Adição da entrevista 1 | XXX XXXX | 
+| DD/MM/YYYY | 2.1 | Adição dos requisitos elicitados e conclusão | XXXX XXXXX |--> 
