@@ -59,16 +59,8 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
  
 |ID|Descrição|
 |----|-------------|
-|REQ01|Integração com o sistema de pedidos dos lojistas: O sistema deve ser capaz de integrar-se facilmente aos sistemas de pedidos existentes das lojas dentro do shopping, permitindo que os clientes façam pedidos de várias lojas de forma eficiente.|
-|REQ02|Rastreamento em tempo real: Os clientes devem poder rastrear o status de seus pedidos em tempo real, desde o momento em que são feitos até a entrega final, para garantir transparência e confiança no serviço de entrega.|
-|REQ03| Opções de pagamento variadas: O sistema deve oferecer uma variedade de opções de pagamento para os clientes, incluindo cartões de crédito, débito, carteiras digitais e pagamento em dinheiro na entrega, para garantir conveniência e acessibilidade aos clientes com diferentes preferências de pagamento.|
-|REQ04|Personalização de pedidos: Os clientes devem poder personalizar seus pedidos de acordo com suas preferências individuais, como escolha de itens específicos, solicitações especiais ou opções de embalagem.|
-|REQ05|Gestão de estoque em tempo real: O sistema deve ser capaz de monitorar o estoque disponível nas lojas participantes em tempo real, garantindo que os clientes possam fazer pedidos apenas dos itens atualmente disponíveis.|
-|REQ06|Pagamento seguro: O sistema deve oferecer opções de pagamento seguro para os clientes, garantindo a proteção das informações financeiras dos clientes.|
-|REQ07|Avaliação de desempenho do sistema: O sistema deve ser capaz de monitorar e avaliar continuamente seu próprio desempenho, incluindo tempo de processamento de pedidos, tempo de entrega, precisão das informações de rastreamento e satisfação do cliente, para identificar áreas de melhoria e garantir um serviço de entrega eficiente e confiável.|
-|REQ08|Notificações em tempo real: Os clientes devem receber notificações em tempo real sobre o status de seus pedidos, incluindo confirmação de pedido, atualizações de status de entrega e notificações de chegada.|
-|REQ09|Feedback e avaliações: O sistema deve permitir que os clientes forneçam feedback e avaliações sobre a experiência de entrega, ajudando a melhorar continuamente a qualidade do serviço.|
-|REQ10|Integração com redes sociais: O sistema deve permitir que os clientes compartilhem suas experiências de entrega nas redes sociais diretamente do aplicativo ou plataforma, facilitando o boca a boca positivo e promovendo o serviço de entrega em shoppings.|
+|REQ01| O sistema deve permitir que o lojista adicione sua loja. |
+|REQ02| sistema deve permitir que o lojista adicione produtos. |
 
 
 ## Conclusão
@@ -76,11 +68,11 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 Através da aplicação da técnica, foi possível elicitar alguns requisitos importantes para o projeto.
 </p>
  
-## Referências
+<!--## Referências
 
 >
 > 
-
+-->
 ## Autor(es)
 
 | Data | Versão | Descrição | Autor(es) |
