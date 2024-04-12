@@ -10,7 +10,7 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou 02:00, onde o Douglas foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou 02:00, onde o Douglas foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento. Após  debatermos as ideias, nós dividimos as tarefas e ficou decicido que o João Pedro faria o Brainstorm, mapa mental e  5wh2 do sistema, o Breno faria a metodologia e o mapa mental da entrevista, o Gabriel Mendes faria o documento de visão, o Thiago faria os casos de uso do sistema e do negócio, e também fez o 5w2h do sistema, e o Douglas fez a entrevista.
 </p>
   
 ## Brainstorm 
@@ -22,13 +22,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 1. Qual o objetivo principal da aplicação?
   
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.
+-> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.
  
-<b> ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
+-> A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
  
-<b>WWWW</b> -  O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
+-> O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
  
-<b>KKKK</b> - A plataforma vai servir para vender produtos online e também para gerenciar o estoque da loja dos produtos que foram vendidos através do aplicativo.
+-> A plataforma vai servir para vender produtos online e também para gerenciar o estoque da loja dos produtos que foram vendidos através do aplicativo.
 </p>                       
 
 ---                                                                      
@@ -38,13 +38,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 2. Como será o processo para cadastrar um novo cliente??
                                                                      
 <p align = "justify">
-<b>XXXX</b> -  O cliente irá poder se cadastrar sozinho ao baixar o aplicativo 
+-> O cliente irá poder se cadastrar sozinho ao baixar o aplicativo 
  
-<b>YYYY</b> - O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
+-> O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
 
-<b> ZZZ </b>-  O Lojista deve cadastrar  um CNPJ validado, informações pessoais,redes socais,endereços,CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil), informações bancárias.
+-> O Lojista deve cadastrar  um CNPJ validado, informações pessoais,redes socais,endereços,CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil), informações bancárias.
 
-<b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
+->   Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
 
 
 </p>                       
@@ -65,7 +65,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align = "justify">
-<b>XXXX</b> - A aplicação irá utilizar geolocalização e raio de abrangência, ajudando com que a entrega seja efetuada em até 2 horas.
+-> A aplicação irá utilizar geolocalização e raio de abrangência, ajudando com que a entrega seja efetuada em até 2 horas.
  
 
  
