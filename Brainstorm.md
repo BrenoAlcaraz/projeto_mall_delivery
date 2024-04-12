@@ -54,7 +54,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
--> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos. 
+-> Primeiramente o lojista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos. 
 
 -> O produto deve ser adicionado/cadastrado com imagem,descrição,preço,recomendado,data de criação e visível. 
 
