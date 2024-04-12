@@ -39,12 +39,12 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
                                                                      
 <p align = "justify">
 -> O usuário irá poder se cadastrar sozinho ao baixar o aplicativo. 
+
+-> Estando logado, o cliente poderá ver diversas lojas e produtos,e caso queira , terá a possibilidade de comprar os produtos que estão à venda.
  
--> O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
+-> O lojista poderá se cadastrar, porém terá que ser validado pelo admin.
 
--> O Lojista deve cadastrar  um CNPJ validado, informações pessoais,redes socais,endereços, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil), informações bancárias.
-
-->   Com o usuário logado, ele poderá ver diversas lojas e produtos,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
+-> O lojista deve cadastrar  um CNPJ validado,informações pessoais,redes socais ,endereços ,informações pessoais ,redes sociais ,endereços ,imagens representativas(banner e perfil) e informações bancárias.
 
 
 </p>                       
