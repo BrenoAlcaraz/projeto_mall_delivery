@@ -6,11 +6,11 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 202307164641  | Gabriel Mendes |
-| 202301135265  | Thiago Corrêa Brandão |
-| 202307164534  |  João Pedro Menezes |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202307164641 | Gabriel Mendes |
+| 202301135265 | Thiago Corrêa Brandão |
+| 202307164534 |  João Pedro Menezes |
+| 202202101036 |  Breno França |
+| 202307164551 |  Douglas Hancock |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
