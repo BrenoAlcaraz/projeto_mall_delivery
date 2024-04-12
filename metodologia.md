@@ -86,25 +86,21 @@ Com o uso das a equipe pode obter uma abordagem flexível e adaptável que integ
  
 ## Referências
  
-> [1] SCRUM, Disponivel em: https://www....
+> [1] Scrumban, Disponivel em: [https://www....](https://asana.com/pt/templates/scrumban)
  
-> [2] Sistema Kanban, Disponivel em: https://www...
+> [2] POO, Disponivel em: [https://www...](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
  
-> [3] Extreme Programming, Disponivel em: http://www...
+> [3] RUP, Disponivel em: [http://www...](https://www.devmedia.com.br/rup-rational-unified-process/4574)
 
-> [5] Rational Unified Process, Disponivel em: https://www...
- 
-> [6] EXTREME PROGRAMMING, Disponivel em: https://www...
- 
  
 ## Autor(es)
  
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 05/mm/xx | 1.0 | Criação  | xxx xxx e xxxxx xxxxx |
-| 06/mm/xx | 1.1 | Adicionado  | xxx xxxx e xxxxx xxxx |
+| 11/04/2003 | 1.0 | Criação  | Breno França |
+<!--| 06/mm/xx | 1.1 | Adicionado  | xxx xxxx e xxxxx xxxx |
 | 06/mm/XX | 1.2 | Adicionado  | xxx xxxx e xxxxxx xxxxxx |
 | 06/mm/xx | 1.3 | Adicionado xxxx | xxx xxxx e xxxx xxxxx |
 | 06/mm/xx | 1.4 | Adicionadoxxxx | xxxx xxxxx e xxxx xxxxx |
 | mm/mm/xx | 1.5 | Revisão do documento | xxxx xxxxx |
-| mm/mm/xx | 1.6 | Ajuste no topico Scrum | xxxx xxxx e xxxx xxxx |
+| mm/mm/xx | 1.6 | Ajuste no topico Scrum | xxxx xxxx e xxxx xxxx |>
