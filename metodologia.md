@@ -14,7 +14,10 @@ A metodologia pode ser definida como a sistematização de métodos e técnicas 
 A equipe utiliza vários métodos e técnicas de diversas metodologias, processos e práticas, para o desenvolvimento. Com o estudo e  experiência da equipe sobre as metodologias ágeis, foi possível identificar aspectos das diversas metodologias, que a equipe utiliza para o desenvolvimento do projeto.
  
 Metodologias, processos e práticas identificados:
- 
+
+ - [RUP (Rational unified process)](https://www.../):<p align = "justify">
+Rational Unified Process (RUP) é um processo de desenvolvimento de software que fornece uma abordagem disciplinada para atribuir tarefas e responsabilidades dentro de uma organização de desenvolvimento de software. Desenvolvido pela Rational Software Corporation (adquirida pela IBM), o RUP é baseado em uma estrutura iterativa e incremental, enfatizando a colaboração entre equipes e a gestão eficiente de requisitos.
+ </p>
  
 - [Scrumban](https://www.../):<p align = "justify">
 O Scrumban é uma metodologia híbrida que combina elementos do Scrum e do Kanban. Esta abordagem foi desenvolvida para equipes que desejam obter o melhor dos dois mundos: a estrutura e previsibilidade do Scrum e a flexibilidade e foco no fluxo de trabalho do Kanban.
@@ -42,7 +45,7 @@ abordagem iterativa é necessária para....
 respeito aos requisitos com base...
  
  
-### Kanban
+### Scrumban
  
 <p align = "justify">
 O Kanban é técnica que propõe a utilização de cartões em um quadro...
@@ -53,7 +56,12 @@ O Kanban é técnica que propõe a utilização de cartões em um quadro...
 - **Em andamento**: Contém as tarefas que estão em andamento.
 - **Revisão**: Contém as tarefas que precisam ser revisadas para conclusão.
 - **Concluido**: Contém as tarefas que já foram revisadas e concluídas.
- 
+
+### POO (OOP Oriented Object Programming)
+
+<p align = "justify">
+
+</p>
  
 ## Conclusão
  
