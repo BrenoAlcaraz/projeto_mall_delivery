@@ -24,7 +24,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <p align = "justify">
 -> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma loja, e recebe-lo em até duas horas.
  
--> A plataforma deve fornecer r funcionalidades para que o lojista consiga adicionar produtos no aplicativo.
+-> A plataforma deve fornecer  funcionalidades para que o lojista consiga adicionar produtos no aplicativo.
  
 -> O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
  
