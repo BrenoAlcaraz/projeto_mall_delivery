@@ -10,7 +10,7 @@ title: Brainstorm
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou..., onde o Douglas foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  whatsapp, começou  por volta das 15:30  e terminou 02:00, onde o Douglas foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
   
 ## Brainstorm 
