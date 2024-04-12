@@ -80,7 +80,7 @@ POO (OOP) é um é um paradigma de programação que se baseia no conceito de "o
  
 <p align = "justify">
  
-Com o estudo das metodologias.....
+Com o uso das a equipe pode obter uma abordagem flexível e adaptável que integra os princípios da orientação a objetos, a disciplina do processo de desenvolvimento e a agilidade na execução do projeto. Isso permite que a equipe se adapte às mudanças de requisitos e prioridades, mantendo um foco contínuo na entrega de valor para o cliente.
  
 </p>
  
