@@ -28,7 +28,6 @@ A criação de novos obstáculos para a expansão do Marketplace, como a demora 
 
 Utilizar a aplicação que será desenvolvida visando resolver os desafios relacionados ao cadastro e validação de lojistas no Marketplace. A solução incluirá um sistema completo de cadastro, integração com APIs para validação de CNPJ, campos para informações pessoais, redes sociais, endereços, imagens representativas e informações bancárias dos lojistas, além de um processo de validação administrativa para garantir a qualidade e integridade dos cadastros.
 
-Objetivos
 
 ## Objetivos
 
