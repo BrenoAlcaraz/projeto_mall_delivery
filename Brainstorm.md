@@ -73,7 +73,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 5. Quais informações seriam interessante para o cliente?
 
 <p align = "justify">
-<b>.</b> - O cliente poderá acompanhar a entrega em tempo real pelo aplicativo.
+->  O cliente poderá acompanhar a entrega em tempo real pelo aplicativo.
  
 
  
