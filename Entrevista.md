@@ -65,7 +65,7 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 |REQ07|Avaliação de desempenho do sistema: O sistema deve ser capaz de monitorar e avaliar continuamente seu próprio desempenho, incluindo tempo de processamento de pedidos, tempo de entrega, precisão das informações de rastreamento e satisfação do cliente, para identificar áreas de melhoria e garantir um serviço de entrega eficiente e confiável.|
 |REQ08|Notificações em tempo real: Os clientes devem receber notificações em tempo real sobre o status de seus pedidos, incluindo confirmação de pedido, atualizações de status de entrega e notificações de chegada.|
 |REQ09|Feedback e avaliações: O sistema deve permitir que os clientes forneçam feedback e avaliações sobre a experiência de entrega, ajudando a melhorar continuamente a qualidade do serviço.|
-|REQ10|Integração com programas de fidelidade: O sistema deve ser integrado aos programas de fidelidade existentes do shopping, permitindo que os clientes acumulem pontos ou recebam benefícios especiais ao fazer pedidos através do sistema de entrega em shoppings.|
+|REQ10|Integração com redes sociais: O sistema deve permitir que os clientes compartilhem suas experiências de entrega nas redes sociais diretamente do aplicativo ou plataforma, facilitando o boca a boca positivo e promovendo o serviço de entrega em shoppings.|
 
 
 ## Conclusão
