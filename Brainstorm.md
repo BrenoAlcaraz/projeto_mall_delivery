@@ -22,7 +22,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 1. Qual o objetivo principal da aplicação?
   
 <p align = "justify">
--> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma loja , e recebe-lo em até duas horas.
+-> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma loja, e recebe-lo em até duas horas.
  
 -> A plataforma deve fornecer r funcionalidades para que o lojista consiga adicionar produtos no aplicativo.
  
