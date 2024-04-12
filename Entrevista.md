@@ -48,8 +48,10 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 |Thiago:|Obrigado por concordar em participar desta entrevista. Para começar, você poderia me dizer qual é o seu papel dentro da organização?|
 |Antônio:|Claro, eu sou o CEO. Meu papel é garantir que todas as atividades da empresa sejam executadas de maneira eficiente e eficaz. |
 |Thiago:|Como funciona a ideia do Mall Delivery e qual problema você está entrentando atualmente?|
-|Antônio:|A ideia do Mall Delivery gira em torno da necessidade de clientes, que não podem sair de casa, comprar itens de lojas de shopping com urgência. Atualmente está precisando criar o sistema de cadastro de lojista para o aplicativo. |
-|Thiago:||
+|Antônio:|A ideia do Mall Delivery gira em torno da necessidade de clientes, que não podem sair de casa, comprar itens de lojas de shopping com urgência. Atualmente estamos precisando criar o sistema de cadastro de lojista para o aplicativo. |
+|Thiago:|Certo. Pensando no problema atual, qual seria o sistema ideal pra você?|
+|Antônio:|O sistema ideal deve ser de fácil uso e intuitivo. Os lojistas devem ter uma área para cadastrar sua loja e inserir informações. Esses dados devem ficar dispóniveis para o administrador do sistema conferi-los e verifcá-los. Assim, dessa forma, ficando diposniveis para aparecer e vender seus produtos no aplicativo.
+|Thiago:|Entendi. Obrigado por comparecer e pelas informações compartilhadas.|
 
 <br>
  
