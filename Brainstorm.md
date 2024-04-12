@@ -84,14 +84,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 |BS05| O sistema deve possibilitar que o usuários faça login |
 |BS06| O sistema deve permitir que o lojista se cadastre|
 |BS07| o Sistema deve possuir uma funcionalidade de carrinho de compra, onde os produtos que o usuário pretende comprar ficarão salvos|
-|BS08| O cliente...|
-|BS09| O cliente...|
-|BS10| O produto...|
-|BS11| O produto...|
-|BS12| O produto...|
-|BS13| O produto...|
-|BS14| O produto...|
-|BS15| O produto...|
+
  
 ## Conclusão
 <p align = "justify">
