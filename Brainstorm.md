@@ -42,7 +42,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 -> O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
 
--> O Lojista deve cadastrar  um CNPJ validado, informações pessoais,redes socais,endereços,CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil), informações bancárias.
+-> O Lojista deve cadastrar  um CNPJ validado, informações pessoais,redes socais,endereços, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil), informações bancárias.
 
 ->   Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
 
