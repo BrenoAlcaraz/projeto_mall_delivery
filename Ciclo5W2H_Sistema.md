@@ -13,7 +13,7 @@ As datas de atualização serão semanais, e terão apresentações maiores nos 
 
 ### Where 
 #### (Onde -> Sistema) - Onde será feito o sistema?
-O sistema será feito num Ambiente de Desenvolvimento Integrado (IDE) que suporte a linguagem Python.
+O sistema será feito num Ambiente de Desenvolvimento Integrado (IDE) que suporte a linguagem Python com o framework Django.
 
 ### What 
 #### (O que -> Sistema) - O que é o sistema? O que precisa ser feito? -> Quais são os requisitos feitos pelo cliente?
