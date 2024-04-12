@@ -82,13 +82,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O sistema deve permitir que o lojista adicione sua loja|
-|BS02| O sistema deve permitir que o lojista adicione produtos|
-|BS03| O sistema deve possibilitar que o usuário compre os produtos|
-|BS04| O sistema deve permitir que o usuario se cadastre |
-|BS05| O sistema deve possibilitar que o usuários faça login |
-|BS06| O sistema deve permitir que o lojista se cadastre|
-|BS07| O Sistema deve possuir uma funcionalidade de carrinho de compra, onde os produtos que o usuário pretende comprar ficarão salvos|
+|BS01| O sistema deve permitir que o lojista adicione sua loja. |
+|BS02| O sistema deve permitir que o lojista adicione produtos. |
+|BS03| O sistema deve possibilitar que o usuário compre os produtos. |
+|BS04| O sistema deve permitir que o usuario se cadastre. |
+|BS05| O sistema deve possibilitar que o usuários faça login. |
+|BS06| O sistema deve permitir que o lojista se cadastre. |
+|BS07| O sistema deve possuir uma funcionalidade de carrinho de compra, onde os produtos que o usuário pretende comprar ficarão salvos. |
 
  
 ## Conclusão
