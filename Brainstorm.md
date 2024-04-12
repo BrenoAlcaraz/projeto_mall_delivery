@@ -35,7 +35,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 
     
       
-### 2. Como será o processo para cadastrar um novo cliente?
+<!---### 2. Como será o processo para cadastrar um novo cliente??>
                                                                      
 <p align = "justify">
 <b>XXXX</b> -  O cliente irá poder se cadastrar sozinho ao baixar o aplicativo 
