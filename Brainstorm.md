@@ -22,7 +22,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 1. Qual o objetivo principal da aplicação?
   
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.(?)
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.
  
 <b> ZZZ </b>- A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e tb fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
  
@@ -46,7 +46,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 
 <b>WWWW</b> -  Com o usuário logado, ele poderá ver diversas lojas e vitrines online,e caso queira , irá poder fazer a compra dos produtos que estão à venda.
 
-<b>KKKK</b> - O cliente...
+
 </p>                       
 
 ---  
@@ -71,21 +71,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 ---
  
-### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
-<p align = "justify">
-<b>XXX</b> - O cliente....
-</p>
- ---
 
-### 6. Quais informações seriam interessante para o cliente?
-<p align = "justify">
-   <b>XXX</b> - Informações...
-
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
-
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
-
-</p>
  
 ### Requisitos elicitados
  
