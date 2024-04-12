@@ -47,8 +47,9 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 |----|-------------|
 |Thiago:|Obrigado por concordar em participar desta entrevista. Para começar, você poderia me dizer qual é o seu papel dentro da organização?|
 |Antônio:|Claro, eu sou o CEO. Meu papel é garantir que todas as atividades da empresa sejam executadas de maneira eficiente e eficaz. |
-|Thiago:|Como CEO, quais funcionalidades você considera essenciais para satisfazer os requisitos do Mall Delivery?|
-|Antônio:|Para os clientes, a facilidade de uso e a eficácia do sistema são fundamentais. Isso inclui funcionalidades como um processo de compra simplificado, sistema de pagamento seguro e suporte ao cliente integrado. Para os acionistas, é importante que o sistema possa gerar relatórios financeiros detalhados e oferecer insights valiosos sobre o desempenho do negócio. Para os funcionários, funcionalidades como interface intuitiva, treinamento integrado e suporte técnico rápido são essenciais para garantir uma transição suave para o novo sistema.|
+|Thiago:|Como funciona a ideia do Mall Delivery e qual problema você está entrentando atualmente?|
+|Antônio:|A ideia do Mall Delivery gira em torno da necessidade de clientes, que não podem sair de casa, comprar itens de lojas de shopping com urgência. Atualmente está precisando criar o sistema de cadastro de lojista para o aplicativo. |
+|Thiago:||
 
 <br>
  
