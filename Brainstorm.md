@@ -98,4 +98,4 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | XXX XXXX, XXXX XXXX, YYY YYYY e ZZZ XXXX |
+| 11/04/2024 | 1.0 | Criação do documento | João Pedro Menezes |
