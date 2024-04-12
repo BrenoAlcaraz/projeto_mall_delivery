@@ -86,11 +86,11 @@ Com o uso das a equipe pode obter uma abordagem flexível e adaptável que integ
  
 ## Referências
  
-> [1] Scrumban, Disponivel em: [https://www....](https://asana.com/pt/templates/scrumban)
+> [1] Scrumban, Disponivel em: <a>https://www.asana.com/pt/templates/scrumban</a>
  
-> [2] POO, Disponivel em: [https://www...](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
+> [2] POO, Disponivel em: <a>www.alura.com.br/artigos/poo-programacao-orientada-a-objetos</a>
  
-> [3] RUP, Disponivel em: [http://www...](https://www.devmedia.com.br/rup-rational-unified-process/4574)
+> [3] RUP, Disponivel em: <a>https://www.devmedia.com.br/rup-rational-unified-process/4574</a>
 
  
 ## Autor(es)
