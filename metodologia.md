@@ -38,30 +38,43 @@ POO (OOP) é um é um paradigma de programação que se baseia no conceito de "o
  
 #### Práticas:
  
-- **Desenvolvimento iterativo**: A
-abordagem iterativa é necessária para....
+- **Desenvolvimento iterativo**:O RUP organiza o desenvolvimento de software em iterações curtas e repetitivas. Cada iteração produz um incremento de software funcional, permitindo que os desenvolvedores obtenham feedback rapidamente e façam ajustes conforme necessário.
  
-- **Verificação da qualidade de software**: A qualidade deve ser revista com
-respeito aos requisitos com base...
- 
+- **Baseado em Componentes**:O RUP promove a reutilização de componentes de software, tanto internos quanto externos. Isso ajuda a reduzir o tempo e o esforço necessários para desenvolver novos sistemas, além de aumentar a consistência e a qualidade do software.
+-Focado em Casos de Uso: O RUP utiliza casos de uso para capturar os requisitos do sistema e orientar o desenvolvimento. Os casos de uso descrevem como os usuários interagem com o sistema e servem como base para a elaboração de modelos e testes.
+
+- **Gestão de Mudanças e Configuração**: O RUP inclui práticas para gerenciar mudanças de requisitos, código e configuração ao longo do ciclo de vida do projeto. Isso ajuda a garantir que o software permaneça estável e controlado, mesmo durante períodos de mudança.
+
+- **Modelagem Visual**: O RUP utiliza modelos visuais, como diagramas de classes, diagramas de sequência e diagramas de atividade, para comunicar a arquitetura e o design do sistema de forma clara e eficaz.
+
+- **Papéis e Responsabilidades Definidos**: O RUP define papéis e responsabilidades claras para os membros da equipe, incluindo analistas de negócios, arquitetos de software, desenvolvedores e testadores. Isso ajuda a garantir uma distribuição equitativa do trabalho e uma colaboração eficiente entre os membros da equipe.
  
 ### Scrumban
- 
-<p align = "justify">
-O Kanban é técnica que propõe a utilização de cartões em um quadro...
-</p>
- 
-- **Lista de Tarefas**: Contém todas as tarefas do projeto.
-- **Incremento**: Contém as tarefas a serem executadas durante a Sprint.
-- **Em andamento**: Contém as tarefas que estão em andamento.
-- **Revisão**: Contém as tarefas que precisam ser revisadas para conclusão.
-- **Concluido**: Contém as tarefas que já foram revisadas e concluídas.
+
+#### Práticas:
+- **Quadro Kanban**: O Scrumban utiliza um quadro visual semelhante ao do Kanban para representar o fluxo de trabalho. As tarefas são representadas por cartões movidos através de colunas que representam os estágios do processo, desde o backlog até a conclusão.
+
+- **Iterações Flexíveis**: Enquanto o Scrum tradicional tem iterações fixas (sprints), o Scrumban permite mais flexibilidade no planejamento das atividades. As tarefas podem ser adicionadas e removidas do backlog e concluídas em qualquer momento, em vez de apenas no final de uma iteração.
+
+- **Papéis e Cerimônias do Scrum Opcionais**: No Scrumban, a equipe tem a liberdade de escolher quais elementos do Scrum deseja manter. Por exemplo, a equipe pode optar por realizar reuniões diárias (stand-ups) ou não, conforme achar adequado. Os papéis de Scrum Master e Product Owner também podem ser ajustados para se adaptarem à dinâmica da equipe.
+
+- **Melhoria Contínua**: Assim como no Kanban e no Scrum, o Scrumban enfatiza a melhoria contínua do processo. A equipe é encorajada a refletir sobre o seu desempenho, identificar áreas de oportunidade e implementar mudanças para otimizar o fluxo de trabalho.
+
+- **Limitação do Trabalho em Progresso (WIP)**: O conceito de WIP é uma parte fundamental do Kanban e também pode ser aplicado no Scrumban para garantir que a equipe não esteja sobrecarregada e que o trabalho esteja fluindo de forma eficiente.
 
 ### POO (OOP Oriented Object Programming)
 
-<p align = "justify">
+### Práticas: 
 
-</p>
+- **Objetos**: Um objeto é uma instância de uma classe. Ele pode ser uma entidade física ou conceitual, como uma pessoa, um carro, um animal ou um conceito abstrato. Por exemplo, um objeto "carro" pode ter atributos como cor, modelo e velocidade, e comportamentos como acelerar, frear e virar.
+
+- **Classes**: Uma classe é um modelo ou "plano" para criar objetos. Ela define os atributos e métodos que os objetos de uma determinada classe terão. Por exemplo, uma classe "Carro" pode definir os atributos cor e modelo, e os métodos acelerar, frear e virar.
+
+- **Encapsulamento**: Encapsulamento é o princípio de esconder os detalhes de implementação interna de um objeto e fornecer uma interface clara para interagir com ele. Isso permite que os objetos sejam usados sem precisar conhecer todos os detalhes internos de sua implementação.
+
+- **Herança**: Herança é um conceito que permite que uma classe herde atributos e métodos de outra classe. Isso permite a reutilização de código e a criação de hierarquias de classes. Por exemplo, uma classe "Carro Esportivo" pode herdar atributos e métodos da classe "Carro", além de adicionar suas próprias características específicas.
+
+- **Polimorfismo**: Polimorfismo permite que objetos de diferentes classes sejam tratados de maneira uniforme. Isso significa que métodos com o mesmo nome podem se comportar de maneiras diferentes em diferentes classes. Por exemplo, um método "mover" pode se comportar de maneira diferente para um objeto "carro" e um objeto "avião", mas ambos podem ser chamados da mesma maneira.
  
 ## Conclusão
  
