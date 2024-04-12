@@ -44,7 +44,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
  
 -> O lojista poderá se cadastrar, porém terá que ser validado pelo admin.
 
--> O lojista deve cadastrar  um CNPJ validado,informações pessoais,redes socais ,endereços ,informações pessoais ,imagens representativas(banner e perfil) e informações bancárias.
+-> O lojista deve cadastrar  um CNPJ validado,informações pessoais,redes socais ,endereços ,imagens representativas(banner e perfil) e informações bancárias.
 
 
 </p>                       
