@@ -56,7 +56,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <p align = "justify">
 -> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos 
 
--> O produto deve ser adicionado/cadastrado com imagen,descição,preço,recomenadado,data de criação e visível. 
+-> O produto deve ser adicionado/cadastrado com imagem,descrição,preço,recomenadado,data de criação e visível. 
 
 </p>
  
