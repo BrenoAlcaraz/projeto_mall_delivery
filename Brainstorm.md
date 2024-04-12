@@ -22,9 +22,9 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 1. Qual o objetivo principal da aplicação?
   
 <p align = "justify">
--> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma determinada loja , e recebe-lo em até duas horas.
+-> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma loja , e recebe-lo em até duas horas.
  
--> A plataforma deve fornecer funcionalidades para que o cliente consiga fazer as compras de um determinado produto, e também  fornecer funcionalidades para que o lojista consiga adicionar produtos no aplicativo
+-> A plataforma deve fornecer r funcionalidades para que o lojista consiga adicionar produtos no aplicativo
  
 -> O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
  
@@ -67,16 +67,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <p align = "justify">
 -> A aplicação irá utilizar geolocalização e raio de abrangência, ajudando com que a entrega seja efetuada em até 2 horas.
  
-
  
 ---
 ### 5. Quais informações seriam interessante para o cliente?
 
 <p align = "justify">
 ->  O cliente poderá acompanhar a entrega em tempo real pelo aplicativo.
- 
-
- 
+  
 ---
  
 
