@@ -24,7 +24,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 <p align = "justify">
 -> Deve ser uma plataforma onde qualquer pessoa consiga fazer a compra de um determinado produto de uma loja , e recebe-lo em até duas horas.
  
--> A plataforma deve fornecer r funcionalidades para que o lojista consiga adicionar produtos no aplicativo
+-> A plataforma deve fornecer r funcionalidades para que o lojista consiga adicionar produtos no aplicativo.
  
 -> O objetivo principal da aplicação é criar um sistema de cadastro e integrar com uma API e Front-End.
  
@@ -38,7 +38,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 2. Como será o processo para cadastrar um novo cliente??
                                                                      
 <p align = "justify">
--> O cliente irá poder se cadastrar sozinho ao baixar o aplicativo 
+-> O cliente irá poder se cadastrar sozinho ao baixar o aplicativo. 
  
 -> O lojista poderá se cadastrar , porém terá que ser validado pelo admin.
 
@@ -54,7 +54,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord e  wha
 ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
--> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos 
+-> Primeiramente o logista irá solicitar a adição da loja no aplicativo, e depois disso, o admin irá aceitar ou recusar a solicitação, e a partir disso ele poderá adicionar os produtos. 
 
 -> O produto deve ser adicionado/cadastrado com imagem,descrição,preço,recomendado,data de criação e visível. 
 
