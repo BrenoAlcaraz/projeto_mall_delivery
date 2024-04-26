@@ -1,35 +1,66 @@
-## Administrador
-**Caso de uso:** Fazer Login no sistema
+## Cliente
 
-**Interesses:**
+**Caso de uso:** Fazer login
+
+**Descrição:**
 - Usuário: Deseja entrar no sistema.
 
-**Caso de uso:** Receber cadastro do usuário
+**Caso de uso:** Fazer cadastro
 
-**Interesses:**
+**Descrição:**
 - Usuário: Deseja se cadastrar no sistema.
 
-**Caso de uso:** Visualizar feed principal
+**Caso de uso:** Visualizar feed 
 
-**Interesses:**
+**Descrição:**
 - Usuário: Deseja após entrar no sistema visualizar o feed principal.
 
 **Caso de uso:** Visualizar loja
 
-**Interesses:**
+**Descrição:**
 - Usuário: Deseja após localizar loja no sistema visualizar o  seu estoque.
 
-**Caso de uso:** Procurar loja por meio do filtro
+**Caso de uso:** Procurar loja 
 
-**Interesses:**
-- Usuário: Deseja procuar alguma loja específica pelo nome por meio do filtro de pesquisa do sistema
+**Descrição:**
+- Usuário: Deseja procuar alguma loja específica pelo nome por meio do filtro de pesquisa do sistema.
 
-**Caso de uso:** Visualizar peça de roupa
+**Caso de uso:** Visualizar produtos
 
-**Interesses:**
+**Descrição:**
 - Usuário: Deseja após localizar alguma peça de interesse visualizar com mais detalhes.
 
-**Caso de uso:** Procurar peça por categoria
+**Caso de uso:** Procurar peça 
 
-**Interesses:**
-- Usuário: Deseja após entrada no sistema procurar por alguma peça de roupa pelo filtro de pesquisas
+**Descrição:**
+- Usuário: Deseja após entrada no sistema procurar por alguma peça de roupa pelo filtro de pesquisas.
+
+**Caso de uso:** Adicionar ao carrinho
+**Descrição:**
+- Usuário: Deseja adicionar produtos ao seu carrinho de compras.
+
+**Caso de uso:** Finalizar Compra
+
+**Descrição:** 
+-Usuário: Desaja comprar tudo o que está dentro do seu carrinho de compras.
+
+## Lojista
+
+**Caso de uso:** Fazer login
+**Descrição:**
+- Usuário: Deseja entrar no sistema.
+
+**Caso de uso:** Fazer cadastro
+
+**Descrição:**
+- Usuário: Deseja cadastrar a loja no sistema.
+
+**Caso de uso:** Adicionar produtos
+**Descrição:**
+-Usuário: Adicionar produtos na loja.
+
+
+## Administrador
+
+**Caso de uso:** Validar cadastro
+-Usuário: Validar o cadastro das lojas do sistema.
