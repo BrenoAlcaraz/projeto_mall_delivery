@@ -25,11 +25,11 @@
 ## **_Caso de uso:_** Adicionar estoque
 
 **Descrição:**
--Usuário: Deseja adicionar produtos ao estoque da loja.
+- Usuário: Deseja adicionar produtos ao estoque da loja.
 
 # Administrador
 
 ## **_Caso de uso:_** Validar cadastro
 
 **Descrição:**
--Usuário: Validar o cadastro das lojas do sistema.
+- Usuário: Validar o cadastro das lojas do sistema.
