@@ -1,14 +1,3 @@
-# Cliente
-
-## **_Caso de uso:_** Fazer login
-
-**Descrição:**
-- Usuário: Deseja entrar no sistema.
-
-## **_Caso de uso:_** Fazer cadastro
-
-**Descrição:**
-- Usuário: Deseja se cadastrar no sistema.
 
 # Lojista
 
