@@ -25,9 +25,9 @@
 **Descrição:**
 - Usuário: Lojista deseja adicionar produto ao estoque.
 
-  ## **_Caso de uso:_** Remover Produto
-  **Descrição:**
-  - Usuário: Lojista deseja remover produto do estoque.
+## **_Caso de uso:_** Remover Produto
+**Descrição:**
+- Usuário: Lojista deseja remover produto do estoque.
 
 # Consumidor
 
