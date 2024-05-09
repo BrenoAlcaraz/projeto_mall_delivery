@@ -21,6 +21,13 @@
 **Descrição:**
 - Usuário: Lojista deseja cadastrar as lojas no sistema. 
 
+## **_Caso de uso:_** Adicionar Produto
+**Descrição:**
+- Usuário: Lojista deseja adicionar produto ao estoque.
+
+  ## **_Caso de uso:_** Remover Produto
+  **Descrição:**
+  - Usuário: Lojista deseja remover produto do estoque.
 
 # Consumidor
 
