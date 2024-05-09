@@ -11,7 +11,7 @@
 **Descrição:**
 - Usuário: Deseja cadastrar a loja no sistema.
 
-## **_Caso de uso:_** Adicionar estoque
+## **_Caso de uso:_** Adicionar produto
 
 **Descrição:**
 - Usuário: Deseja adicionar produtos ao estoque da loja.
