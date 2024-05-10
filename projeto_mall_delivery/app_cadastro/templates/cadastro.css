@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+
+div{
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    width: 90px; /* Adicione um ponto e vírgula aqui */
+    justify-items: center; /* Remova este, pois não faz sentido dentro de um form */
+    justify-content: center; /* Remova este, pois não faz sentido dentro de um form */
+}
+h2{
+    text-align: center;
+}
