@@ -29,9 +29,6 @@
 **Descrição:**
 - Usuário: Lojista deseja remover produto do estoque.
 
-## **_Caso de uso:_** Visualizar Estoque
-**Descrição:**
-- Usuário: Lojista deseja visualizar o estoque da loja.
 # Consumidor
 
 ## **_Caso de uso:_** Fazer Cadastro
