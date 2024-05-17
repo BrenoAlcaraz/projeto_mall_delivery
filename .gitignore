@@ -1,0 +1,6 @@
+# Virtual Enviroment
+venv /
+ENV/
+env/
+env.bak/
+venv.bak/
