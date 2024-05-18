@@ -44,3 +44,6 @@ def login_view(request):
 
 def lojista_inicial(request):
     return render(request,'lojista_inicial.html')
+
+def escolha_user(request):
+    return render(request,'escolha_user.html')
