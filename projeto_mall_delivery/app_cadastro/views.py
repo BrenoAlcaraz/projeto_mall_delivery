@@ -8,7 +8,7 @@ def consumidor_cadastro(request):
         form = ConsumidorCadastroForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('pagina_login')  # substitua 'pagina_de_login' pela sua página de login
+            return redirect('login')  # substitua 'pagina_de_login' pela sua página de login
     else:
         form = ConsumidorCadastroForm()
     return render(request, 'cadastro_consumidor.html', {'form': form})
@@ -18,7 +18,7 @@ def lojista_cadastro(request):
         form = LojistaCadastroForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('pagina_login')  # substitua 'pagina_de_login' pela sua página de login
+            return redirect('login')  # substitua 'pagina_de_login' pela sua página de login
     else:
         form = LojistaCadastroForm()
     return render(request, 'cadastro_lojista.html', {'form': form})
@@ -30,14 +30,22 @@ def pagina_login(request):
         user = authenticate(request, username=email, password=password)
         if user is not None:
             login(request, user)
-            return redirect('home')  # substitua 'pagina_inicial' pela página inicial do seu sistema
+            return redirect('escolha_user.html')  # substitua 'pagina_inicial' pela página inicial do seu sistema
         else:
             messages.error(request, 'Credenciais inválidas. Por favor, tente novamente.')
     return render(request, 'login.html')
 
-def pagina_inicial(request):
-    return render(request, 'pagina_inicial.html')
+##def pagina_inicial(request):
+   ## return render(request, 'pagina_inicial.html')
 
 def login_view(request):
     # Sua lógica para a view de login aqui
     return render(request, 'login.html')
+
+def lojista_inicial(request):
+    return render(request,'lojista_inicial.html')
+
+def escolha_user(request):
+    return render(request,'escolha_user.html')
+def consumidor_inicial(request):
+    return render(request,'consumidor_inicial.html')

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header{
+              
+              text-align: left;
+              background-color: black;
+              padding: 30px;
+              color: white;
+              border-radius: 5px;
+              font-weight: bold;
+              font-family: "Kodchasan", sans-serif;
+                }
+
+        div{
+            text-align: center;
+            font-size: larger;
+            margin-top: 30px;
+        }
+       </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mall <br>Delivery </h1>
+    </header>
+    <h2 style="text-align: center;">
+        Escolha uma opção que você deseje entrar: 
+    </h2>
+    <div style="align-items: center;">
+        <div >
+            <a><button  type="button">Admin</button></a>
+        </div>
+        <div >
+            <a href="{%url 'app_cadastro:lojista_inicial' %}"><button type="button">Lojista</button></a>
+        </div>
+        <div >
+            <a href="{%url 'app_cadastro:consumidor_inicial' %}"><button type="button">Consumidor</button></a>
+        </div>
+    </div>
+    <div style="text-align: center;"><a  href="{%url 'app_cadastro:pagina_login' %}"><button  type="button">voltar</button></a></div>
+</body>
+</html>
