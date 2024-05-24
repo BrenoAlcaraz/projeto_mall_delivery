@@ -1,0 +1,8 @@
+<!-- templates/estoque/lista_produtos.html -->
+<h1>Meus Produtos</h1>
+<ul>
+  {% for produto in produtos %}
+    <li>{{ produto.nome }} - {{ produto.preco }} - {{ produto.estoque }}</li>
+  {% endfor %}
+</ul>
+<a href="{% url 'adicionar_produto' %}">Adicionar Produto</a>

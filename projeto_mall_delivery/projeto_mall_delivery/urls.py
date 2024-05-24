@@ -24,5 +24,5 @@ urlpatterns = [
     path('cadastro/', include('app_cadastro.urls')),  # inclua as URLs do app_cadastro
     path('', views.home, name='home'),  # Define a URL para a página inicial
     path('login/', login_view, name='login'),
-    
+    path('lojistaestoque/', include('app_estoque.urls'))
 ]
