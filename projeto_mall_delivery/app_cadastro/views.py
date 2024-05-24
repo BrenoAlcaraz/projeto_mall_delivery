@@ -30,7 +30,7 @@ def pagina_login(request):
         user = authenticate(request, username=email, password=password)
         if user is not None:
             login(request, user)
-            return redirect('lojista_inicial.html')  # substitua 'pagina_inicial' pela página inicial do seu sistema
+            return redirect('escolha_user.html')  # substitua 'pagina_inicial' pela página inicial do seu sistema
         else:
             messages.error(request, 'Credenciais inválidas. Por favor, tente novamente.')
     return render(request, 'login.html')
@@ -47,3 +47,5 @@ def lojista_inicial(request):
 
 def escolha_user(request):
     return render(request,'escolha_user.html')
+def consumidor_inicial(request):
+    return render(request,'consumidor_inicial.html')

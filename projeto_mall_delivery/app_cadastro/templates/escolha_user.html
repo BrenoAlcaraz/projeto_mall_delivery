@@ -27,11 +27,20 @@
     <header>
         <h1>Mall <br>Delivery </h1>
     </header>
-
-    <div>
-        <a><button type="button">Admin</button></a>
-        <a href="{%url 'app_cadastro:lojista_inicial' %}"><button type="button">Lojista</button></a>
-        <a><button type="button">Consumidor</button></a>
+    <h2 style="text-align: center;">
+        Escolha uma opção que você deseje entrar: 
+    </h2>
+    <div style="align-items: center;">
+        <div >
+            <a><button  type="button">Admin</button></a>
+        </div>
+        <div >
+            <a href="{%url 'app_cadastro:lojista_inicial' %}"><button type="button">Lojista</button></a>
+        </div>
+        <div >
+            <a href="{%url 'app_cadastro:consumidor_inicial' %}"><button type="button">Consumidor</button></a>
+        </div>
     </div>
+    <div style="text-align: center;"><a  href="{%url 'app_cadastro:pagina_login' %}"><button  type="button">voltar</button></a></div>
 </body>
 </html>
