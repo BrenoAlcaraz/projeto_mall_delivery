@@ -11,10 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <style>
       
-        #logo {
-          font-family: "Kodchasan", sans-serif;
-         
-        }
       header{
       
           
@@ -24,6 +20,8 @@
             color: white;
             border-radius: 5px;
             font-weight: bold;
+            font-family: "Kodchasan", sans-serif;
+        
       }
       div{
         text-align: center;
@@ -33,7 +31,8 @@
 <body>
     <div>
         <header>
-            <h1 id="logo"> Mall <br>Delivery </h1>
+            <h1> Mall <br>Delivery </h1>
+            <a style="text-decoration: none;color: inherit;" href="{% url 'home' %}">home</a>
         </header>
         <h2> <p>Faça compras pelo Mall =D</p>
              <p>Entregamos tudo o que você precisa na porta da sua casa</p>               
