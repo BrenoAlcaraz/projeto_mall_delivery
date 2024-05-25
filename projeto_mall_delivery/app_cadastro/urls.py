@@ -12,3 +12,5 @@ urlpatterns = [
     path('escolha_user',views.escolha_user,name='escolha_user'),
     path('consumidor_inicial',views.consumidor_inicial, name='consumidor_inicial')
 ]
+
+
