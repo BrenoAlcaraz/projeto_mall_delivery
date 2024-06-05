@@ -10,35 +10,84 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <style>
-      
-        #logo {
-          font-family: "Kodchasan", sans-serif;
-         
+        body {
+            margin: 0;
+            font-family: "Kodchasan", sans-serif;
+            background-color: #f3f6f7;
+            color: #333;
         }
-      header{
-      
-          
-            text-align: left;
-            background-color: black;
+        header {
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000;
             padding: 30px;
             color: white;
             border-radius: 5px;
             font-weight: bold;
-      }
-      div{
-        text-align: center;
-      }
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header a {
+            text-decoration: none;
+            color: inherit;
+            margin-top: 10px;
+            display: flex;
+            text-align: left;
+            font-size: 1.2em;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a.button:hover {
+            background-color: #4d4d61;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <header>
-            <h1 id="logo"> Mall <br>Delivery </h1>
-        </header>
-        <h2> <p>Faça compras pelo Mall =D</p>
-             <p>Entregamos tudo o que você precisa na porta da sua casa</p>               
-        </h2>
-        <a href="{% url 'app_cadastro:pagina_login' %}">Ir para a página de login/cadastro</a>
+    <header>
+        <h1>Mall <br>Delivery</h1>
+        <!--<a href="{% url 'home' %}">Home</a>-->
+    </header>
+    <div class="container">
+        <h2>Faça compras pelo Mall =D</h2>
+        <p>Entregamos tudo o que você precisa na porta da sua casa</p>               
+        <a class="button" href="{% url 'app_cadastro:pagina_login' %}">Ir para a página de login/cadastro</a>
     </div>
+    <footer>
+        &copy; 2024 Mall Delivery. Todos os direitos reservados.
+    </footer>
 </body>
 </html>

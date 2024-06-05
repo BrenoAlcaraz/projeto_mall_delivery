@@ -3,28 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Loja - Inicial</title>
     <style>
-     header{
-           
-           text-align: left;
-           background-color: black;
-           padding: 30px;
-           color: white;
-           border-radius: 5px;
-           font-weight: bold;
-           font-family: "Kodchasan", sans-serif;
-             }
+        body {
+            margin: 0;
+            font-family: "Kodchasan", sans-serif;
+            background-color: #f3f6f7;
+            color: #333;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            background-color: #000;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #e0e0e0;
+            padding: 20px;
+            position: fixed;
+            top: 80px;
+            bottom: 0;
+            left: 0;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .sidebar a:hover {
+            background-color: #004d66;
+            color: white;
+        }
+        .sidebar a.active {
+            background-color: #004d66;
+            color: white;
+        }
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .logout {
+            text-decoration: none;
+            color: white;
+            
+        }
+        .logout:hover {
+            text-decoration: underline;
+        }
+        .panel {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .panel h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
     </style>
-    <title>Document</title>
 </head>
 <body>
-    
-        <header>
-            <h1>Mall<br>Delivery</h1>
-            <a style="text-decoration: none;color: inherit;" href="{% url 'home' %}">home</a>
-        </header>
-          
-        
-    
+    <header>
+        <h1>Mall Delivery</h1>
+        <a class="logout">sair</a>
+    </header>
+    <div class="sidebar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Adicionar produtos</a>
+        <a href="#">Estoque</a>
+        <a href="#">Visualizar loja</a>
+        <a href="#">Pedidos</a>
+    </div>
+    <div class="main-content">
+        <div class="panel">
+            <h2>Painel Principal</h2>
+            <p>Vendas: Aumento de 30%</p>
+            <p>Fluxo da Loja: Aumento de 15%</p>
+        </div>
+    </div>
 </body>
 </html>
