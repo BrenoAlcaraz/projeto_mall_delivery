@@ -10,7 +10,10 @@ urlpatterns = [
     ##path('', views.pagina_inicial, name='pagina_inicial'),
     path('cadastro/lojista_inicial/',views.lojista_inicial,name='lojista_inicial'),
     path('escolha_user',views.escolha_user,name='escolha_user'),
-    path('consumidor_inicial',views.consumidor_inicial, name='consumidor_inicial')
+    path('consumidor_inicial',views.consumidor_inicial, name='consumidor_inicial'),
+
+ 
+
 ]
 
 
