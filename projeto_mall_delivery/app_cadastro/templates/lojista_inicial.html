@@ -22,8 +22,13 @@
             color: white;
             font-weight: bold;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
         }
         header h1 {
             margin: 0;
@@ -37,6 +42,7 @@
             top: 80px;
             bottom: 0;
             left: 0;
+            overflow-y: auto;
         }
         .sidebar a {
             display: block;
@@ -55,19 +61,30 @@
         }
         .main-content {
             margin-left: 220px;
-            padding: 20px;
+            padding: 100px 20px 20px 20px;
         }
         .logout {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            margin-right: 50px;
+            background-color: #414040;
+            padding: 10px 20px;
+            border-radius: 5px;
             text-decoration: none;
             color: white;
-            
+            text-align: right;
         }
         .logout:hover {
             text-decoration: underline;
+            background-color: #004d66;
         }
         .panel {
             background-color: #e0e0e0;
-            padding: 20px;
+            width: 80%;
+            height: 150px;
+            margin-left: 100px;
+            padding: 40px;
             border-radius: 5px;
             text-align: center;
         }
@@ -80,7 +97,7 @@
 <body>
     <header>
         <h1>Mall Delivery</h1>
-        <a class="logout">sair</a>
+        <a class="logout" href="{% url 'home' %}">sair</a>
     </header>
     <div class="sidebar">
         <a href="#" class="active">Home</a>

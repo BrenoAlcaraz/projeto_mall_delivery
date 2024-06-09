@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from .forms import ConsumidorCadastroForm, LojistaCadastroForm
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
 def consumidor_cadastro(request):
@@ -23,16 +24,19 @@ def lojista_cadastro(request):
         form = LojistaCadastroForm()
     return render(request, 'cadastro_lojista.html', {'form': form})
 
+
 def pagina_login(request):
     if request.method == 'POST':
         email = request.POST.get('email')
         password = request.POST.get('password')
         user = authenticate(request, username=email, password=password)
+        
         if user is not None:
             login(request, user)
             return redirect('escolha_user.html')  # substitua 'pagina_inicial' pela página inicial do seu sistema
         else:
             messages.error(request, 'Credenciais inválidas. Por favor, tente novamente.')
+
     return render(request, 'login.html')
 
 ##def pagina_inicial(request):
