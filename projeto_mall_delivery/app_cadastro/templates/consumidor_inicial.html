@@ -27,7 +27,7 @@
             color: white;
             font-weight: bold;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
         header h1 {
@@ -82,19 +82,27 @@
             border-radius: 5px;
         }
         .logout {
+            position: absolute;
+            top: 40px;
+            right: 20px;
+            margin-right: 50px;
+            background-color: #414040;
+            padding: 10px 20px;
+            border-radius: 5px;
             text-decoration: none;
             color: white;
-            margin-right: 30px;
+            text-align: right;
         }
         .logout:hover {
             text-decoration: underline;
+            background-color: #004d66;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Mall Delivery</h1>
-        <a class="logout" href="">sair</a>
+        <a class="logout" href="{% url 'home' %}">sair</a>
     </header>
     <div class="content">
         <h2>Faça compras pelo Mall =D</h2>
