@@ -12,7 +12,7 @@ def consumidor_cadastro(request):
     else:
         form = ConsumidorCadastroForm()
     return render(request, 'cadastro_consumidor.html', {'form': form})
-
+    
 def lojista_cadastro(request):
     if request.method == 'POST':
         form = LojistaCadastroForm(request.POST)
@@ -21,7 +21,7 @@ def lojista_cadastro(request):
             return redirect('login')  # substitua 'pagina_de_login' pela sua página de login
     else:
         form = LojistaCadastroForm()
-    return render(request, 'cadastro_lojista.html', {'form': form})
+    return render(request, 'cadastro_lojista.html', {'form': form}) 
 
 def pagina_login(request):
     if request.method == 'POST':
@@ -30,7 +30,7 @@ def pagina_login(request):
         user = authenticate(request, username=email, password=password)
         if user is not None:
             login(request, user)
-            return redirect('escolha_user.html')  # substitua 'pagina_inicial' pela página inicial do seu sistema
+            return redirect('app_cadastro:escolha_user')  # substitua 'pagina_inicial' pela página inicial do seu sistema
         else:
             messages.error(request, 'Credenciais inválidas. Por favor, tente novamente.')
     return render(request, 'login.html')
