@@ -16,7 +16,7 @@ class Consumidor(AbstractUser):
         'auth.Permission',
         verbose_name=_('user permissions'),
         blank=True,
-        related_name='consumidor_permissions'  # Nome único e válido
+        related_name='consumidor_permissions'  # Nome único e válid
     )
 
 class Lojista(AbstractUser):
