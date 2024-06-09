@@ -1,8 +1,13 @@
 from django import forms
+from django.forms.widgets import PasswordInput, TextInput
 from .models import Consumidor, Lojista
+from django.contrib.auth.forms import AuthenticationForm
 
-class ConsumidorCadastroForm(forms.ModelForm):
-    class Meta:
+
+#Form Cadastro
+class CreateConsumidorForm(forms.ModelForm):
+
+     class Meta:
         model = Consumidor
         fields = ['username', 'email', 'password', 'cpf', 'telefone']
         widgets = {
@@ -12,12 +17,11 @@ class ConsumidorCadastroForm(forms.ModelForm):
             'cpf': forms.TextInput(attrs={'placeholder': 'Insira seu CPF'}),
             'telefone': forms.TextInput(attrs={'placeholder': 'Insira seu telefone'}),
         }
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.fields['username'].help_text = ''  # Remova o texto de ajuda para o campo1    
 
-class LojistaCadastroForm(forms.ModelForm):
-    class Meta:
+#Form Cadastro
+class CreateLojistaForm(forms.ModelForm):
+
+    class Meta: 
         model = Lojista
         fields = ['username', 'email', 'password', 'cpf', 'cep', 'endereco', 'cnpj', 'razao_social']
         widgets = {
@@ -30,6 +34,13 @@ class LojistaCadastroForm(forms.ModelForm):
             'cnpj': forms.TextInput(attrs={'placeholder': 'Insira o CNPJ da sua loja'}),
             'razao_social': forms.TextInput(attrs={'placeholder': 'Insira a razão social da loja'}),
         }
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.fields['username'].help_text = ''  # Remova o texto de ajuda para o campo1    
+
+
+#Form login
+class LoginForm(AuthenticationForm):
+
+    username = forms.CharField(widget=TextInput())
+    password = forms.CharField(widget=PasswordInput())
+
+
+

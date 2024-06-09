@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppCadastroConfig(AppConfig):
+class RegAuthAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app_cadastro'
+    name = 'reg_auth_app'
