@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Cadastro de Lojsita</title>
+    <title>Cadastro de Lojista</title>
     <style>
         /* Estilo para o texto de ajuda */
         .helptext {
@@ -50,10 +50,10 @@
     <div class="classe ">
         <form method="POST" style="text-align: center;" >
             {% csrf_token %}
-            {{ form_cadastro_consumidor.as_p }}
+            {{ form_cadastro_lojista.as_p }}
             <button type="submit" value="Register">Cadastrar</button>
     </div>
     </form>
-    <div class="voltar"><a><button type="">Voltar</button></a></div>
+    <div class="voltar"><a href="{% url 'app:login' %}"><button type="button">Voltar</button></a></div>
 </body>
 </html>

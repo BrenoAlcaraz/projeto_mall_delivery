@@ -7,4 +7,5 @@ urlpatterns = [
     path('adicionar_itens/', views.adicionar_itens, name='adicionar_itens'),
     path('update_itens/<str:pk>/', views.update_itens,name='update_itens'),
     path('deletar_itens/<str:pk>/', views.deletar_itens, name='deletar_itens'),
+    path('sua_loja/', views.sua_loja, name='sua_loja'),
 ]

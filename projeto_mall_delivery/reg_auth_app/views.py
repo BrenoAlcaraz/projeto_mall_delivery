@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .forms import CreateConsumidorForm, CreateLojistaForm, LoginForm
+from .forms import  CreateLojistaForm, LoginForm
 from django.contrib.auth import login as auth_login, authenticate
 import logging 
 from rest_framework import status
@@ -13,35 +13,24 @@ def homepage(request):
     return render(request, 'app/index.html')
 
 #registro de consumidor
-def cadastro_consumidor(request):
+def cadastro_lojista(request):
     if request.method == 'POST':
         #se o método for POST, ele cria um formulário com os dados inseridos
-        form = CreateConsumidorForm(request.POST)
+        form = CreateLojistaForm(request.POST)
         if form.is_valid():
             #se for válido, salva os dados e leva pra página de login
             form.save()
             return redirect('app:login')
     else:
         #se não for POST, cria um formulário vazio
-        form = CreateConsumidorForm()
-    
-    #renderiza o cadastro com o form
-    context = {'form_cadastro_consumidor': form}
-    return render(request, 'app/cadastro_consumidor.html', context=context)
-
-#registro de lojista
-def cadastro_lojista(request):
-    if request.method == 'POST':
-        #mesma coisa do consumidor, se for POST, cria o form com os dados
-        form = CreateLojistaForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('app:login')
-    else:
         form = CreateLojistaForm()
     
+    #renderiza o cadastro com o form
     context = {'form_cadastro_lojista': form}
     return render(request, 'app/cadastro_lojista.html', context=context)
+
+#registro de lojista
+
 
 #isso esquece, fui tentar debbugar
 logger = logging.getLogger(__name__)

@@ -1,5 +1,5 @@
 body{
-    background-color: #96a199
+    background-color: #969696
 }
 .table{
     font-size: 13px;
@@ -17,7 +17,7 @@ body{
 }
 
 th{
-    background-color: #337ab7;
+    background-color: #000000;
     color:white;
 }
 
@@ -26,15 +26,15 @@ th{
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 20px;
-    box-shadow: 12px 12px 20px 6px #7c77be;
+    
 }
 .header{
     font-family: "Kodchasan", sans-serif; ;
-    color:#337ab7;
+    color:#000000;
     font-size: 50px;
     text-align: center;
     width: 100%;
-    text-shadow: 6px 6px 6px #c9c6c6;
+    
     display: block;
     font-weight: bolder;
 }

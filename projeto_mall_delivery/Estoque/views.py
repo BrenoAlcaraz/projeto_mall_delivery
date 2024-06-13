@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+
 from .models import *
 from .forms import StockCreateForm,StockSearchForm,StockUpdateForm
 from django.contrib.auth.decorators import login_required
@@ -62,3 +63,20 @@ def deletar_itens(request, pk):
         queryset.delete()
         return redirect('lista_itens')
     return render(request,'estoque/deletar_itens.html')
+
+#view exibe estoque:
+def sua_loja(request):
+    stock = Stock.objects.all()
+    
+    query = request.GET.get('q', '')
+
+    feed_data = []
+
+    if query:
+        produtos = Stock.objects.filter(nome__icontains=query)
+    else:
+        produtos = Stock.objects.all()
+
+    return render(request, 'estoque/sua_loja.html')
+
+    
