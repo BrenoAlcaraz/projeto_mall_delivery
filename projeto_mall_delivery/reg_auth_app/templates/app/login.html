@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Mall Delivery - Login</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: "Kodchasan", sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: lighter;
+            margin: 0;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #000;
+            border-radius: 4px;
+            justify-content: center;
+        }
+
+        .submit-container {
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            padding: 0.5em 2em;
+            border: 1px solid #000;
+            border-radius: 4px;
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            justify-content: center;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #fff;
+            color: #000;
+            justify-content: center;
+        }
+
+        .back-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .back-link a {
+            text-decoration: underline;
+            color: #000;
+        }
+
+        .logoblock {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            justify-content: center;
+        }
+
+        .logomall {
+            font-size: 45px;
+        }
+
+        .logologin {
+            font-size: 30px;
+            font-weight: lighter;
+        }
+
+        .signup-link {
+            margin-top: 20px;
+        }
+
+        .signup-link a {
+            text-decoration: underline;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-link"><a href="#">voltar</a></div>
+    
+    <div class="container">
+        <div class="logoblock">
+            <h1 class="logomall">Mall Delivery</h1>
+            <h2 class="logologin">Login</h2>
+        </div>
+
+        <form method="POST">
+            {% csrf_token %}
+            {{ loginform.as_p }}
+            <div class="submit-container">
+                <input type="submit" value="Fazer Login">
+            </div>
+        </form>
+        <div class="signup-link">
+            Não tem uma conta ainda? <a href="#">Cadastre-se</a>
+        </div>
+    </div>
+</body>
+</html>

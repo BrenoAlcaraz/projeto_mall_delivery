@@ -1,8 +1,10 @@
 from django.shortcuts import render, redirect
 from .models import *
 from .forms import StockCreateForm,StockSearchForm,StockUpdateForm
+from django.contrib.auth.decorators import login_required
 
-# Create your views here.
+# Create your views here
+@login_required
 def estoque(request):
     title="Welcome: This is the estoque page"   
     context = {
@@ -42,9 +44,9 @@ def adicionar_itens(request):
 
 def update_itens(request, pk):
     queryset = Stock.objects.get(id=pk)
-    form = StrockUpdateForm(instance=queryset)
+    form = StockUpdateForm(instance=queryset)
     if request.method == 'POST':
-        form = StrockUpdateForm(request.POST, instance=queryset)
+        form = StockUpdateForm(request.POST, instance=queryset)
         if form.is_valid():
             form.save()
             return redirect('lista_itens')
@@ -52,3 +54,11 @@ def update_itens(request, pk):
         "form": form,
     }
     return render(request,"estoque/adicionar_itens.html",context)
+
+
+def deletar_itens(request, pk):
+    queryset = Stock.objects.get(id=pk)
+    if request.method == 'POST':
+        queryset.delete()
+        return redirect('lista_itens')
+    return render(request,'estoque/deletar_itens.html')

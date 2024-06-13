@@ -61,15 +61,17 @@
             <th>COUNT</th>
             <th>CATEGORIA</th>
             <th>NOME DO ITEM</th>
-            <th>QUANTIDADE</th>
+            <th>QUANTIDADE</th> 
+            <th>Deletar</th>
           </tr>
         </thead>
         {% for instance in queryset %}
         <tr>
           <td>{{forloop.counter}}</td>
           <td>{{instance.Categoria}}</td>
-          <td>{{instance.nome_item}}</td>
-          <td>{{instance.quantidade}}</td>        
+          <td><a href="{% url 'update_itens' instance.id %}">{{instance.nome_item}}</a></td>
+          <td>{{instance.quantidade}}</td> 
+          <td><a href="{% url 'deletar_itens' instance.id %}"><img src="{% static 'img/del2.png'%}" alt=""></a></td>       
         </tr>
         {% endfor %}
       </table>

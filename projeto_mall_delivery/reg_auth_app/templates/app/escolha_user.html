@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background-color: #f0f0f0;
+            padding-top: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .sidebar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        .dashboard {
+            background-color: #d3d3d3;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .dashboard h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#home" class="active">Home</a>
+        <a href="../Estoque/adicionar_itens">Adicionar produtos</a>
+        <a href="#estoque">Estoque</a>
+        <a href="#visualizar-loja">Visualizar loja</a>
+        <a href="#pedidos">Pedidos</a>
+    </div>
+    <div class="main">
+        <div class="dashboard">
+            <h2>Painel Principal</h2>
+            <p>Vendas:<br>Aumento de 30%</p>
+            <p>Fluxo da Loja:<br>Aumento de 15%</p>
+        </div>
+    </div>
+</body>
+</html>
