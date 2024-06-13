@@ -13,7 +13,10 @@
 | 202307164551 |  Douglas Hancock |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+A Mall Delivery é um marketplace com foco na entrega imediata de produtos das mais variadas categorias aos seus consumidores. Criamos um sistema para o cadastro de lojista integrado com API e Front-End para visualização do negócio.  
+No cadastro de lojista há informações obrigatórias do CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas(banner e perfil) e informações bancárias que serão validadas pelo administrador do portal.
+No cadastro de produto temos as seguintes informações: categoria, nome, imagem, descrição, preço.
+
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
