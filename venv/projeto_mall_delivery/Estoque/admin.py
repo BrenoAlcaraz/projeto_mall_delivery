@@ -1,5 +1,5 @@
 from django.contrib import admin
-from  Estoque.models import *
+from  Estoque.models import Stock,Categoria
 from Estoque.forms import StockCreateForm
 
 # Register your models here.

@@ -7,10 +7,30 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.authtoken.models import Token
 from .serializers import UserLoginSerializer
+from Estoque.models import Stock
+from Estoque.forms import StockSearchForm
 
 #página principal
+'''
 def homepage(request):
-    return render(request, 'app/index.html')
+    return render(request, 'app/index.html') '''
+
+def homepage(request):
+    title = "Home - Lista de Produtos"
+    form = StockSearchForm(request.POST or None)
+    queryset = Stock.objects.all()
+
+    if request.method == 'POST':
+        queryset = Stock.objects.filter(Categoria__icontains=form['Categoria'].value(), nome_item__icontains=form['nome_item'].value())
+    
+    context = {
+        "title": title,
+        "queryset": queryset,
+        "form": form,
+    }
+
+    return render(request, 'app/index.html', context)
+
 
 #registro de consumidor
 def cadastro_lojista(request):

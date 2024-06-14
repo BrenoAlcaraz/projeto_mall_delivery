@@ -1,15 +1,23 @@
 from django.shortcuts import render, redirect
 
-from .models import *
+from .models import Stock
 from .forms import StockCreateForm,StockSearchForm,StockUpdateForm
 from django.contrib.auth.decorators import login_required
 
 # Create your views here
 @login_required
 def estoque(request):
-    title="Welcome: This is the estoque page"   
+    title = "Welcome: This is the estoque page"   
+    queryset = Stock.objects.all()  # Obtém todos os itens de estoque
+    form = StockSearchForm(request.POST or None)
+
+    if request.method == 'POST':
+        queryset = Stock.objects.filter(Categoria__icontains=form['Categoria'].value(), nome_item__icontains=form['nome_item'].value())
+
     context = {
-        "title" : title,
+        "title": title,
+        "queryset": queryset,
+        "form": form,
     }
     return render(request, 'estoque/estoque_home.html', context)
 
@@ -64,19 +72,5 @@ def deletar_itens(request, pk):
         return redirect('lista_itens')
     return render(request,'estoque/deletar_itens.html')
 
-#view exibe estoque:
-def sua_loja(request):
-    stock = Stock.objects.all()
-    
-    query = request.GET.get('q', '')
-
-    feed_data = []
-
-    if query:
-        produtos = Stock.objects.filter(nome__icontains=query)
-    else:
-        produtos = Stock.objects.all()
-
-    return render(request, 'estoque/sua_loja.html')
 
     

@@ -147,7 +147,4 @@ REST_FRAMEWORK = {
 AUTH_USER_MODEL = 'reg_auth_app.Lojista'
 
 # settings.py
-AUTHENTICATION_BACKENDS = [
-    'your_app.backends.ApprovedUserBackend',
-    'django.contrib.auth.backends.ModelBackend',
-]
+

@@ -1,43 +1,105 @@
-<!-- projeto_mall_delivery/templates/projeto_mall_delivery/home.html -->
 
+{% load crispy_forms_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Mall Delivery</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>{{ title }}</title>
+    <link rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <style>
-      
-      header{
-      
-          
-            text-align: left;
-            background-color: black;
-            padding: 30px;
-            color: white;
-            border-radius: 5px;
-            font-weight: bold;
-            font-family: "Kodchasan", sans-serif;
-        
-      }
-      div{
-        text-align: center;
-      }
-    </style>
 </head>
 <body>
-    <div>
-        <header>
-            <h1> Mall <br>Delivery </h1>
-            <a style="text-decoration: none;color: inherit;" >home</a>
-        </header>
-        <h2> <p>Faça compras pelo Mall =D</p>
-             <p>Entregamos tudo o que você precisa na porta da sua casa</p>               
-        </h2>
-        <a href="{% url 'app:login' %}">Ir para a página de login/cadastro</a>
-    </div>
+  <style>
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 50px;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-family: "Kodchasan", sans-serif;
+    }
+
+    header h1 {
+        flex-grow: 1;
+        text-align: center;
+        margin: 0;
+        font-size: 35px;
+    }
+
+    header nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: inherit;
+        margin: 0 10px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    .feed {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .feed-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        width: calc(33.333% - 40px); /* Para três itens por linha, ajustável conforme necessário */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .feed-item h2 {
+        margin-top: 0;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    .formblock {
+        text-align: center;
+    }
+  </style>
+   <header>
+       <nav>
+           <a href="#">home</a>
+           <h1>Mall Delivery</h1>
+           <a href="{% url 'app:login' %}">login</a>
+       </nav>
+   </header>
+
+   <div class="formblock">
+       <h1>Produtos em estoque</h1>
+       <h3>Filtro de pesquisa</h3>
+       <form method="POST" action="">
+           {% csrf_token %}
+           {{form|crispy}}
+           <button type="submit">Search</button>
+       </form>
+   </div>  
+
+   <div class="feed">
+       {% for item in queryset %}
+           <div class="feed-item">
+               <h2>{{ item.nome_item }}</h2>
+               <p>Categoria: {{ item.Categoria }}</p>
+               <p>Preço: R${{ item.Preço }}</p>
+               <p>Quantidade: {{ item.quantidade }}</p>
+           </div>
+       {% endfor %}
+   </div>
 </body>
 </html>

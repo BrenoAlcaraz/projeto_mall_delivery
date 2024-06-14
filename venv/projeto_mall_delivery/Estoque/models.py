@@ -13,7 +13,9 @@ class Stock(models.Model):
     #Categoria = models.ForeignKey(Categoria,on_delete=models.CASCADE)
     Categoria = models.CharField(max_length=50,blank=True,null=True)
     nome_item = models.CharField(max_length=50,blank=True,null=True)
+    
     quantidade = models.IntegerField(default=0,null=True,blank=True)
+    Preço = models.IntegerField(default=0,null=True,blank=True)
     quantidade_recebida = models.IntegerField(default=0,null=True,blank=True)
     recebida_por= models.CharField(max_length=50,blank=True,null=True)
     quantidade_problema = models.IntegerField(default=0,null=True,blank=True)

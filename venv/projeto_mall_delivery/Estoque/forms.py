@@ -4,16 +4,9 @@ from Estoque.models import Stock
 class StockCreateForm(forms.ModelForm):
     class Meta:
         model = Stock
-        fields = ['Categoria', 'nome_item', 'quantidade']
+        fields = ['Categoria', 'nome_item', 'quantidade','Preço']
 
-    def clean_Categoria(self):
-        Categoria = self.cleaned_data.get('Categoria')
-        if not Categoria:
-            raise forms.ValidationError('Campo categoria é obrigatório')
-        for instance in Stock.objects.all():
-            if instance.Categoria == Categoria:
-                raise forms.ValidationError (str(Categoria) + ' já existe')  # Convert Categoria to string
-        return Categoria
+   
 
     def clean_nome_item(self):
         nome_item = self.cleaned_data.get('nome_item')
@@ -27,9 +20,9 @@ class StockCreateForm(forms.ModelForm):
 class StockSearchForm(forms.ModelForm):
     class Meta:
         model = Stock
-        fields = ['Categoria', 'nome_item']
+        fields = ['Categoria', 'nome_item','Preço']
 
 class StockUpdateForm(forms.ModelForm):
     class Meta:
         model = Stock
-        fields = ['Categoria', 'nome_item', 'quantidade']
+        fields = ['Categoria', 'nome_item', 'quantidade','Preço']
