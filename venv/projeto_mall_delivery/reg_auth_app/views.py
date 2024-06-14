@@ -73,7 +73,7 @@ def user_login(request):
                 logger.debug("User authentication successful")
                 #se for tudo certo, redireciona pra escolha de usuário
                 auth_login(request, user)
-                return redirect("estoque_home")
+                return redirect("lista_itens")
             else:
                 logger.debug("User authentication failed")
 
