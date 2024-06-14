@@ -10,7 +10,7 @@ class CreateLojistaForm(UserCreationForm):
         fields = ['username', 'email', 'cpf', 'telefone', 'cep', 'endereco', 'cnpj', 'razao_social']
 
         widgets = {
-            'username': forms.TextInput(attrs={'placeholder': 'Insira seu nome de usuário'}),
+            'username': forms.TextInput(attrs={'placeholder': 'Insira seu nome de usuário' }),
             'email': forms.EmailInput(attrs={'placeholder': 'Insira seu e-mail'}),
             'cpf': forms.TextInput(attrs={'placeholder': 'Insira seu CPF'}),
             'telefone': forms.TextInput(attrs={'placeholder': 'Insira seu telefone'}),
@@ -26,6 +26,12 @@ class CreateLojistaForm(UserCreationForm):
         if commit:
             user.save()
         return user
+
+    def __init__(self, *args, **kwargs):
+        super(CreateLojistaForm, self).__init__(*args, **kwargs)
+
+        for fieldname in ['username', 'email', 'cpf','telefone','cep','endereco','cnpj','razao_social','password1','password2']:
+            self.fields[fieldname].help_text = None
 
 #form de login
 class LoginForm(AuthenticationForm):
